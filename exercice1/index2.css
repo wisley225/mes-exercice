@@ -1,0 +1,531 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:   sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.nav-bar{
+
+  height: 90px;
+  width: 100%;
+  background: linear-gradient( to bottom  ,rgb(63, 60, 60) 20%,rgb(136, 133, 133)  );
+  position: fixed;
+  z-index: 2;
+   
+}
+.nav-link{
+   height: 100%;
+   width: 100%;
+
+    text-align: center;
+    line-height: 75px;
+
+}
+
+.nav-link li{
+
+list-style-type: none;
+margin-left: 20px;
+transition: 0.5s;
+display: inline-block;
+
+
+
+
+}
+
+
+.nav-link li a{
+ color: white;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 17px;
+text-align: center;
+
+}
+
+/* la page de  garde accueil  */
+
+.accueil{
+ 
+   min-height: 900px;
+    background-position:center;
+    background-size: contain;
+    background:url(https://lp-cms-production.imgix.net/2024-03/GettyRF638340372.jpg?w=1440&h=810&fit=crop&auto=format&q=75)  no-repeat;
+    display: flex;
+  align-items: center;
+ 
+
+  
+  
+    
+}
+
+
+.content{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    bottom:  45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+   
+
+
+}
+
+.content P{
+  color: white;
+  font-size: large;
+  filter:drop-shadow(10px -3px 3px  black);
+
+}
+
+.content a {
+         display: inline-block;
+     
+         padding: 15px;
+         border-radius:50px;
+         font-family: sans-serif;
+         text-decoration: none;
+         background-color: crimson;
+         cursor: pointer;
+         color: white;
+         transition: background-color 0.3s;
+ &:hover{
+  background-color: rgb(158, 10, 39);
+
+ }
+         
+}
+
+.content h1  {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  filter:drop-shadow(10px -3px 3px  black);
+  
+  font-weight: 800;
+  font-size:80px;
+
+  
+
+}
+
+.content h1,a::first-letter{
+text-transform: uppercase;
+}
+/*section que faire  que faire  */
+
+.que-faire{
+  border: solid 1px;
+ height: 350vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+}
+.que-faire h1{
+font-size: 35px;
+text-transform: uppercase;
+text-align: center;
+
+
+color:   rgb(59, 55, 55);;
+}
+
+.disney{
+ height: 550px;
+width: 450px; 
+position: relative;
+right: 240px; 
+
+}
+
+.content-text{
+  display: flex;
+ flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 550px;
+  background-color: rgb(59, 55, 55);
+  color: white;
+  padding-left:10px;
+}
+
+.content-text p{
+
+width: 50%;
+line-height: 40px;
+}
+.content-text h1{
+font-size: 30px;
+}
+
+.content-text a{
+  display: inline-block;
+     
+  padding: 15px;
+  border-radius:50px;
+  font-family: sans-serif;
+  
+  text-decoration: none;
+  background-color: crimson;
+  color: white;
+}
+
+.disney img{
+   height: 500px;
+  position: relative;
+  bottom:  435px;
+  left:250px; 
+}
+
+
+#hollywood{
+position: relative;
+left: 270px; 
+}
+
+#hollywood img{
+  left:-130px;
+}
+
+ #content-text2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: end;
+  padding-right: 20px;
+  
+}
+
+#plage img{
+   width: 345px; 
+}
+
+
+.partez{
+
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  height: 300px;
+  background: url(/24916_1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+margin-bottom: 50px; 
+}
+
+
+
+/* section laissez vous guider... */
+
+
+.laissez-vous h1::first-letter{
+
+text-transform: uppercase;
+}
+
+.laissez-vous h1{
+  text-align: center;
+font-size: 6vh;
+font-family:  sans-serif;
+margin-bottom: 40px;
+
+
+}
+.laissez-vous h1 hr{
+  width: 30vh;
+  align-self: center;
+  margin: auto;
+  margin-top: 10px;
+
+}
+
+.item-list{
+border-radius: 5px;
+width: 250px;
+  height: 540px;
+  box-shadow: 0 10px 10px black;
+  transition: 0.3s;
+
+margin:  20px ;
+display: inline-block;
+
+
+
+}
+
+.item-list:hover{
+  transform: translateY(-10px);
+}
+
+.item-list .item{
+  border-top: solid 1px gray;
+
+  height: 55px;
+  font-family: sans-serif;
+display: flex;
+align-items: center;
+padding-left: 10px;
+font-size: 14px;
+}
+
+
+.item-list .item:nth-child(even){
+background-color:rgb(247, 240, 240)
+}
+.elem1{
+  height: 130px;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+  background: linear-gradient( -5deg,white 49%,rgb(253, 182, 194) 50%);
+
+}
+
+.elem8{
+
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.elem8 a{
+  border: solid 1px;
+  padding: 13px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+  transition: 0.3s;
+}
+
+.elem8 a:hover{
+background-color: rgb(46, 44, 44);
+color: white;
+
+}
+
+
+.elem1 h2{
+font-size: 4vh;
+
+width: 50%;
+
+}
+.fi.fi-br-check{
+   margin-right: 5px;
+  font-size: 15px;
+  color: rgb(57, 56, 124);
+}
+
+.fi.fi-br-cross{
+  font-size: 15px;
+  margin-right: 5px;
+  color: red;
+}
+
+
+  .prix{
+ 
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted;
+  
+  }
+
+
+  #decouverte{
+    background: linear-gradient( -5deg,white 49%,rgb(248, 93, 119) 50%);
+    
+  }
+
+  #exception{
+    background: linear-gradient( -5deg,white 49%,rgb(255, 9, 50) 50%);
+  }
+
+
+  .fi.fi-br-menu-burger{
+    display: none;
+  
+  }
+
+/* responsive nav */
+@media (max-width:700px) {
+.nav-link  li{
+  display: block;
+}
+
+.nav-link{
+
+  height: 300px;
+  background: linear-gradient( to bottom  ,rgb(63, 60, 60) 20%,rgb(136, 133, 133)  );
+  clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
+}
+.nav-link.active{
+
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+
+}
+
+.fi.fi-br-menu-burger{
+  display: block;
+ position: absolute;
+ z-index: 5;
+ font-size: 40px;
+ right: 40px;
+color: white;
+}
+}
+
+
+
+@media (max-width:1140px){
+
+.content h1{
+  font-size: 5vw;
+}
+
+}
+
+
+@media (max-width:1000px){
+  .disney{
+    position: relative;
+right: 0px;
+  }
+}
+
+@media (max-width:990px) {
+  
+  .disney{
+   
+  height: auto;
+ width: 100%; 
+ position: relative;
+ right: 0px; 
+ 
+ }
+
+ .disney img{
+  position: relative;
+  left:0px; 
+ width: 100%;
+ height: 500px;
+ object-position: center;
+ object-fit: cover;
+}
+ .que-faire{
+  height: auto;
+ }
+
+
+ #plage img{
+  width: 100%; 
+}
+
+#hollywood{
+   position: relative;
+  left: 0px; 
+  }
+
+
+  #hollywood img{
+    left:0px;
+  }
+
+  .disney img{
+    bottom: 0px;
+  }
+}
+
+
+.contact{
+ display: block;
+  padding-bottom: 100px;
+  
+
+}
+
+
+.contact h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  
+
+}
+
+
+.form{
+
+  margin: 0 auto;
+  width: 70%;
+}
+.form-group{
+  position: relative;
+  margin-bottom: 45px;
+
+}
+
+.form-group label{
+  font-size: 20px;
+}
+.form-group input{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+outline: none;
+background: none;
+border-bottom: 3px solid ;
+font-size: 30px;
+
+}
+
+
+.form-group textarea{
+  width: 100%;
+  height: 200px;
+  border: none;
+  border: 3px solid;
+  border-radius: 3px;
+  padding: 5px;
+  resize: none;
+  outline: none;
+font-size: 20px;
+background: #f1f1f1;
+}
+ .form-group .button{
+display: block;
+width: auto;
+padding: 15px 60px;
+border-radius: 100px;
+font-size: 25px;
+background-image: linear-gradient(to right,transparent 50%,rgb(50,50,50)50%,rgb(136,136,136));
+cursor: pointer;
+transition: all 0.4S ease-in-out;
+background-size: 200%;
+color: #444;
+}
+
+.form-group .button:hover{
+
+  background-position: 100%;
+  border: 3px solid white;
+}

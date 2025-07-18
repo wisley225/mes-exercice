@@ -1,0 +1,51 @@
+.apparaitre{
+    opacity:0;
+    transform:translateY(-30px) ;
+  }
+
+  .apparaitre-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition:1s;
+  }
+
+  .trans_left{
+    opacity:0;
+    transform:translateX(-200px) ;
+  }
+
+  .trans_left_true{
+    opacity: 1;
+    transform: translateX(0);
+    transition:1s;
+  } 
+
+
+
+
+
+   /* .apparaitre-trans2{
+
+    opacity:0 ;
+    transform: translateX();
+   } */
+
+
+
+
+
+  /* .apparaitre {
+    opacity: 0;
+    transform: translateY(30px); /* Décalage initial 
+    transition: all 1s ease; /* Transition douce 
+  }
+
+  .apparaitre-visible {
+    opacity: 1;
+    transform: translateY(0); /* Position normale 
+  }
+
+  .apparaitre-sortie {
+    opacity: 0;
+    transform: translateY(-30px); /* Décalage vers le haut 
+  } */
