@@ -48,8 +48,8 @@
         </div>
            
  <div class="formulaire_email ">
- <input type="email" placeholder="Email" class="w-full p-3 rounded-md placeholder:text-2xl mb-8 ">
- <input type="text" placeholder="prenom" class="w-full p-3 rounded-md placeholder:text-2xl mb-8">
+ <input type="email" placeholder="Email" class="w-full text-black outline-none p-3 rounded-md placeholder:text-2xl mb-8 ">
+ <input type="text" placeholder="prenom" class="w-full text-black outline-none p-3 rounded-md placeholder:text-2xl mb-8">
  <div class=" text-2xl font-semibold m-auto py-2 w-80 max-[1070px]:w-64 max-[1070px]:text-xl     text-center  rounded-md text-white mb-10 bg-red-700 " ><a href="" >s'inscrire gratuitement >  </a></div>
 
 </div> 
